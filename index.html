@@ -1,37 +1,40 @@
-<!-- <head> -->
-<script>
-  window.adaSettings = {
-    handle: "mountainwarehouse",
-    cluster: "eu"
-  };
-</script>
-
-<script
-  src="https://static.ada.support/embed2.js"
-></script>
-
 <head>
   <style>
     #genesys-support-center {
-      font-family: "Arial", sans-serif; /* Change the font to whatever you prefer */
-      font-size: 14px; /* Adjust the font size if necessary */
+      font-family: Arial, sans-serif;
+      font-size: 14px;
     }
   </style>
+
+  <script>
+    window.adaSettings = {
+      handle: "mountainwarehouse",
+      cluster: "eu"
+    };
+  </script>
+
+  <script src="https://static.ada.support/embed2.js"></script>
 </head>
+
 <body>
   <div id="genesys-support-center"></div>
+
   <script type="text/javascript" charset="utf-8">
     (function (g, e, n, es, ys) {
-      g['_genesysJs'] = e;
+      g["_genesysJs"] = e;
       g[e] = g[e] || function () {
-        (g[e].q = g[e].q || []).push(arguments)
+        (g[e].q = g[e].q || []).push(arguments);
       };
       g[e].t = 1 * new Date();
       g[e].c = es;
-      ys = document.createElement('script'); ys.async = 1; ys.src = n; ys.charset = 'utf-8'; document.head.appendChild(ys);
-    })(window, 'Genesys', 'https://apps.euw2.pure.cloud/genesys-bootstrap/genesys.min.js', {
-      environment: 'prod-euw2',
-      deploymentId: 'f9ebde95-2d4d-4c1d-b449-aca615c47b7a'
+      ys = document.createElement("script");
+      ys.async = 1;
+      ys.src = n;
+      ys.charset = "utf-8";
+      document.head.appendChild(ys);
+    })(window, "Genesys", "https://apps.euw2.pure.cloud/genesys-bootstrap/genesys.min.js", {
+      environment: "prod-euw2",
+      deploymentId: "f9ebde95-2d4d-4c1d-b449-aca615c47b7a"
     });
   </script>
 </body>
